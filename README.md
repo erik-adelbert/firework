@@ -4,7 +4,7 @@ A terminal Firework animation engine and ASCII art CLI written in Go, built with
 
 ## Demo
 
-![Firework Demo](firework.gif)
+![Firework Demo](https://github.com/user-attachments/assets/1ff13eb6-17f1-430b-989a-68334f9d9bdf)
 
 [Watch the demo on YouTube](https://youtu.be/D6vXbLvAlIM)
 
