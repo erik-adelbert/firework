@@ -1,0 +1,17 @@
+.DS_Store
+*.out
+coverage.out
+*.mov
+
+# Build artifacts
+/bin/
+
+# Benchmark output files
+*.bench
+bench*.txt
+
+# Local editor files
+.vscode/
+.idea/
+*.swp
+*.swo

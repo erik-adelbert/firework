@@ -1,0 +1,31 @@
+version: "2"
+
+run:
+  go: "1.26"
+  timeout: 5m
+
+linters:
+  enable:
+    - godot
+    - misspell
+    - unconvert
+  exclusions:
+    generated: lax
+    rules:
+      - path: _test\.go
+        linters:
+          - errcheck
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+
+formatters:
+  enable:
+    - gofmt
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
